@@ -11,6 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   wikijournals-server/index.rst
+   wikijournals-api/index.rst
 
 
 Indices and tables
