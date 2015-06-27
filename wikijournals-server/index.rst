@@ -46,6 +46,10 @@ For the installation of wikijournals on your own webserver please execute the fo
 Manual Installation
 ===================
 
+Todo: Add manual installation
+
 ======
 Update
 ======
+
+Todo: Add update
