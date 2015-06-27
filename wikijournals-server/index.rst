@@ -25,6 +25,9 @@ Requirements
 Installation
 ============
 
+Automatic Installation
+======================
+
 For the installation of wikijournals on your own webserver please execute the following steps:
 
 #. Download the full package from github (the complete wikijournals directory)
@@ -37,6 +40,12 @@ For the installation of wikijournals on your own webserver please execute the fo
 #. If the installer ends successfully please copy the LocalSettings.php from the config subdirectory of the installation directory into the main wikijournals directory
 #. Now you can start wikijournals by calling the url /wikijournals
 
-
 .. DANGER::
    Please note: The default password of the Administrator account (Login:Administrator) is "wikijournals". We recommend changing this password after first login !!
+
+Manual Installation
+===================
+
+======
+Update
+======
