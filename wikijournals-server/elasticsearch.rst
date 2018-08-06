@@ -1,6 +1,6 @@
-****************************************************
-Einrichtung Elastic Search für Mediawiki (Ubuntu 18)
-****************************************************
+**************************************
+Einrichtung Elastic Search (Ubuntu 18)
+**************************************
 
 ===========================
 Installation Elastic Search
@@ -14,20 +14,20 @@ Installation Elastic Search
 
 **Step 2: Add Elasticsearch 5.x APT repository**
 
-.. code-block::
+.. code-block:: bash
 
    echo "deb https://artifacts.elastic.co/packages/5.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-5.x.list
 
 **Step 3: Install OpenJDK**
 
-.. code-block::
+.. code-block:: bash
 
    sudo apt update && sudo apt upgrade
    sudo apt install apt-transport-https uuid-runtime pwgen openjdk-8-jre-headless
 
 **Step 4: Update apt package index ans Install Elasticsearch 5.x**
 
-.. code-block::
+.. code-block:: bash
 
    sudo apt update
    sudo apt install elasticsearch
@@ -37,33 +37,33 @@ Installation Elastic Search
 Open config file /etc/elasticsearch/elasticsearch.yml
 Set correct cluster name for your application:
 
-.. code-block::
+.. code-block:: bash
 
    cluster.name: my-application
 
 Default minimum memory set for JVM is 2gb, if your server has small memory size, change this value:
 
-.. code-block::
+.. code-block:: bash
 
    sudo nano /etc/elasticsearch/jvm.options
 
 Change
 
-.. code-block::
+.. code-block:: bash
 
    -Xms2g
    -Xms2g
 
 to
 
-.. code-block::
+.. code-block:: bash
 
    -Xms512m
    -Xms512m
 
 After modification of the configuration, Elasticsearch can be started:
 
-.. code-block::
+.. code-block:: bash
 
     sudo systemctl daemon-reload
     sudo systemctl enable elasticsearch.service
@@ -71,7 +71,7 @@ After modification of the configuration, Elasticsearch can be started:
 
 Check status:
 
-.. code-block::
+.. code-block:: bash
 
     sudo systemctl status elasticsearch.service
 
