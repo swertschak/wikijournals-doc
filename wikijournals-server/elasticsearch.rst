@@ -8,7 +8,7 @@ Installation Elastic Search
 
 **Step 1: Import Elasticsearch GPG Key**
 
-.. code-block::
+.. code-block:: bash
 
    wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 
