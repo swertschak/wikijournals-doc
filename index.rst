@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    wikijournals-server/index.rst
+   wikijournals-server/elasticsearch.rst
    wikijournals-api/index.rst
 
 
