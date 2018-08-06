@@ -32,6 +32,7 @@ Pre-Install Tasks
 * Clone wikijournals git repo => git clone https://github.com/swertschak/wikijournals.git
 * Create empty database in MySQL (if not exists)
 * Note the following database parameters for the installation
+
     - Database name
     - Database user
     - Database user password
@@ -47,6 +48,7 @@ Installation per Shell Script
 * Open Terminal
 * Change to the wikijournals code directory (the cloned git repo)
 * execute command tools/Install_Wikijournals.sh as sudo with the follwing 9 parameters in this order
+
     - html directory
     - wikijournals directory
     - dbuser
