@@ -17,9 +17,10 @@ Requirements
 ============
 
 * Webserver: Apache > 2.0
-* Database: MySQL > 5.0.2
-* Scripting Language: PHP > 5.2.3
+* Database: MySQL >= 5.7
+* Scripting Language: PHP >= 7.0
 * Minimum space on server: 100 MB
+* Composer (Dependency Manager for PHP)
 
 ============
 Installation
